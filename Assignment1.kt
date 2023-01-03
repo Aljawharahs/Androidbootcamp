@@ -10,7 +10,7 @@ fun main() {
     }
     //  Part2
     var temperature = 35
-    while (temperature != 25){ // 10 iteration
+    while (temperature >10 ){ 
         when {
             temperature == 30 -> println("its Hot")
             temperature == 20 -> println("its Comfy")
